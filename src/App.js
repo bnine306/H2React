@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     // Spring Boot API에서 사용자 목록을 가져옵니다.
-    fetch('http://localhost:8080/api/users')  // 수정된 API URL
+    fetch('http://115.68.179.98/api/users')  // 수정된 API URL
       .then((response) => response.json())  // JSON 응답을 파싱
       .then((data) => {
         setUsers(data);  // 데이터 상태 업데이트
